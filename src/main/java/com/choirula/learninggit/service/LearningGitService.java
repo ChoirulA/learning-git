@@ -2,7 +2,7 @@ package com.choirula.learninggit.service;
 
 public class LearningGitService {
 
-    public void testOne(){
-        System.out.println("test one from dev-one");
+    public String testOne(){
+        return "test one from dev-one";
     }
 }
