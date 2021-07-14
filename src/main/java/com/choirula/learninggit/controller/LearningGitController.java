@@ -1,8 +1,14 @@
 package com.choirula.learninggit.controller;
 
+import com.choirula.learninggit.service.LearningGitService;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class LearningGitController {
 
-    public String test(){
+    @Autowired
+    private LearningGitService learningGitService;
+
+    public void test(){
 
     }
 }
